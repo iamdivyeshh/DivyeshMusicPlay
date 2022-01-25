@@ -59,7 +59,7 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/alive", "/start", "alive"], "start") & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/alive", "/start", "alive", "start"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_video(
         video=f"https://telegra.ph/file/635648c5be623c4f8fb13.mp4",
