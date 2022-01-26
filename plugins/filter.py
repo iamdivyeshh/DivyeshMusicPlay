@@ -7,7 +7,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
-@@Client.on_message(commandpro([ "/alive", "divyesh"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro([ "/alive", "divyesh"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/a8b04a83d5bc163370042.jpg",
