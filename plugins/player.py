@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴋᴀʀᴏ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴋᴏ ʏᴀ ᴘʜɪʀ ɪꜱꜱ ɴᴏᴏʙᴅᴇ ꜱᴇ ᴍɪʟᴏ 🙂: @ZaYNxOP 🥀** ")
+                        f"**ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴋᴀʀᴏ ᴀꜱꜱɪꜱᴛᴀɴᴛ :- @DivyeshMusic_Bot \nʏᴀ ᴘʜɪʀ ɪꜱꜱ ɴᴏᴏʙᴅᴇ ꜱᴇ ᴍɪʟᴏ 🙂: @ZaYNxOP 🥀** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"** ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴋᴀʀᴏ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴋᴏ ʏᴀ ᴘʜɪʀ ɪꜱꜱ ɴᴏᴏʙᴅᴇ ꜱᴇ ᴍɪʟᴏ 🙂: @ZaYNxOP 🥀 ...*")
+            f"** ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴋᴀʀᴏ ᴀꜱꜱɪꜱᴛᴀɴᴛ :- @DivyeshMusic_Bot \nʏᴀ ᴘʜɪʀ ɪꜱꜱ ɴᴏᴏʙᴅᴇ ꜱᴇ ᴍɪʟᴏ 🙂: @ZaYNxOP 🥀 ...*")
         return
     
     audio = (
