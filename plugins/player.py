@@ -136,9 +136,9 @@ async def play(_, message: Message):
                     await USER.join_chat(invitelink)
                     await USER.send_message(
                         message.chat.id, "I joined this group for playing music in VC")
-                              await lel.edit(
-                                  "<b>helper userbot joined your chat</b>",
-                              )
+   
+
+
 
                 except UserAlreadyParticipant:
                     pass
