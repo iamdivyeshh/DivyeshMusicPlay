@@ -146,7 +146,7 @@ async def play(_, message: Message):
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure = is not banned in group."
                                   "\n\nOr manually add helper to your Group and try again</b>",
-                              )"
+                             
         )
     try:
         await USER.get_chat(chid)
@@ -332,7 +332,7 @@ async def play(_, message: Message):
             caption="▶️ **Playing** here the song \nrequested by `{}` \nvia @ZaYNxOP🎶🎸 😜".format(
         message.from_user.mention()**".format(),
            )
-
+      ) 
     os.remove("final.png")
     return await lel.delete()
     
